@@ -798,6 +798,7 @@ x.x headers
 	}
 }
 
+
 input[type="search"] {
 	box-sizing: border-box;
 	width: 100%;
@@ -806,6 +807,7 @@ input[type="search"] {
 .search-box-wrapper {
 	z-index: 2;
 	width: 100%;
+	display: none;
 }
 
 .search-box {
