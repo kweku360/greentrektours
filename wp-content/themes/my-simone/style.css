@@ -535,6 +535,24 @@ a:active {
 }
 
 /*--------------------------------------------------------------
+x.x headers
+--------------------------------------------------------------*/
+.site-branding {
+	padding: 6rem 0;
+	text-align: center;
+	background: #2c86ba;
+	background: hsl(202, 62%, 45%);
+}
+
+.site-title {
+	font-weight: 700;
+	font-size: 40px;
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	line-height: normal;
+	padding-bottom: 1rem;
+}
+/*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
 .widget {
