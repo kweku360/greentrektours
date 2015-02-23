@@ -576,7 +576,17 @@ x.x headers
 	color: #fff;
 	color: hsl(0, 0%, 100%);
 }
+/* Header responsive */
+@media screen and (max-width: 600px) {
+	.site-branding { padding: 0; }
 
+	.title-box {
+		max-width: 100%;
+		margin: 0;
+		padding: 4rem;
+		border: none;
+	}
+}
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
