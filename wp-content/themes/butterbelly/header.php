@@ -48,8 +48,8 @@
                                 <?php if (butterbelly_get_option('butterbelly_logo') != '') { ?>
                                 <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo butterbelly_get_option('butterbelly_logo'); ?>" alt="<?php bloginfo('name'); ?> logo"/></a>
                                 <?php } else { ?>
-                                    //lets show our image
-                                    <h1>hello world</h1>
+<!--                                    lets show our image-->
+                                    <img src="images/gtnobg.png" alt="GreenTrek Tours">
                                 <?php } ?>
                             </div>
                         </div>
