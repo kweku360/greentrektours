@@ -49,7 +49,7 @@
                                 <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo butterbelly_get_option('butterbelly_logo'); ?>" alt="<?php bloginfo('name'); ?> logo"/></a>
                                 <?php } else { ?>
 <!--                                    lets show our image-->
-                                    <img src="images/gtnobg.png" alt="GreenTrek Tours">
+                                    <img src="<?php echo get_template_directory(); ?>/images/gtnobg.png" alt="GreenTrek Tours">
                                 <?php } ?>
                             </div>
                         </div>
