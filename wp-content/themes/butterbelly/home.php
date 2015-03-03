@@ -28,8 +28,7 @@
                             <img  src="<?php echo butterbelly_get_option('butterbelly_slideimage1'); ?>" alt="Slide Image 1"/></a>
                     <?php } else { ?>
                         <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt="Slide Image 1"/>
-                        <img  src="<?php echo get_template_directory_uri(); ?>/images/slider2.jpg" alt="Slide Image 2"/>
-                    <?php } ?>
+<?php } ?>
                     <div class="container_24">
                         <div class="grid_24">
                             <div class="flex-caption-wrapper">
