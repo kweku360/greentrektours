@@ -101,7 +101,7 @@
                                     </a>
                                 </h3>
                             <?php } else { ?>
-                                <h3><a href="#"><?php _e('Happy Customers', 'butterbelly'); ?></a></h3>
+                                <h3><a href="#"><?php _e('HoneyMoon Packages', 'butterbelly'); ?></a></h3>
                             <?php } ?>
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg1') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg1'); ?>" alt="First Feature Image" />
@@ -133,12 +133,12 @@
                                     }
                                     ?>"><?php echo stripslashes(butterbelly_get_option('butterbelly_headline2')); ?></a></h3>
                                 <?php } else { ?>
-                                <h3><a href="#"><?php _e('Share Testimonials', 'butterbelly'); ?></a></h3>
+                                <h3><a href="#"><?php _e('Hotel Reservations', 'butterbelly'); ?></a></h3>
                             <?php } ?>
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/img2.jpg" /><?php } ?></span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservations.jpg" /><?php } ?></span>
                             <div class="feature-content-text">
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
@@ -148,11 +148,11 @@
                                         }
                                         ?>"><img src="<?php echo butterbelly_get_option('butterbelly_circle_img2'); ?>" alt="First Feature Image" /></a>
                                        <?php } else { ?>
-                                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/circle-img2.jpg" alt="Feature image" /></a><?php } ?></div>
+                                        <a href="#"></a><?php } ?></div>
                                 <?php if (butterbelly_get_option('butterbelly_seconddesc') != '') { ?>
                                     <p><?php echo stripslashes(butterbelly_get_option('butterbelly_seconddesc')); ?></p>
                                 <?php } else { ?>
-                                    <p><?php _e('You can also share testimonials in feature section that will prove how much your services are reliable that will make positive impact on visitors coming to your website.', 'butterbelly'); ?></p>
+                                    <p><?php _e('', 'butterbelly'); ?></p>
                                 <?php } ?>
                             </div></div>
                     </div>
@@ -164,12 +164,12 @@
                                     }
                                     ?>"><?php echo stripslashes(butterbelly_get_option('butterbelly_headline3')); ?></a></h3>
                                 <?php } else { ?>
-                                <h3><a href="#"><?php _e('Introduce Team', 'butterbelly'); ?></a></h3>
+                                <h3><a href="#"><?php _e('Pre-Vals Dinner', 'butterbelly'); ?></a></h3>
                             <?php } ?>
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg3') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg3'); ?>" alt="Third Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/img3.jpg" /><?php } ?></span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/dinner.jpg" /><?php } ?></span>
                             <div class="feature-content-text">          
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img3') != '') { ?>
@@ -179,11 +179,11 @@
                                         }
                                         ?>"><img src="<?php echo butterbelly_get_option('butterbelly_circle_img3'); ?>" alt="First Feature Image" /></a>
                                        <?php } else { ?>
-                                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/circle-img3.jpg" alt="Feature image" /></a><?php } ?></div>
+                                        <a href="#"></a><?php } ?></div>
                                 <?php if (butterbelly_get_option('butterbelly_thirddesc') != '') { ?>
                                     <p><?php echo stripslashes(butterbelly_get_option('butterbelly_thirddesc')); ?></p>
                                 <?php } else { ?>
-                                    <p><?php _e('Even you can introduce your team in the feature section. The people that stand your business. This will give a chance to visitors to know the kind of work your team does.', 'butterbelly'); ?>
+                                    <p><?php _e('', 'butterbelly'); ?>
                                     </p>
                                 <?php } ?>
                             </div></div>
