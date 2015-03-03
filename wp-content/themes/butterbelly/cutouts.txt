@@ -1,0 +1,8 @@
+<?php
+//this file contains cut outs
+//header.php cutouts
+<hgroup>
+                                    <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+<h4 class="site-description"><?php bloginfo('description'); ?></h4>
+</hgroup>
+

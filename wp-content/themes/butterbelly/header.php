@@ -48,10 +48,8 @@
                                 <?php if (butterbelly_get_option('butterbelly_logo') != '') { ?>
                                 <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo butterbelly_get_option('butterbelly_logo'); ?>" alt="<?php bloginfo('name'); ?> logo"/></a>
                                 <?php } else { ?>
-                                <hgroup>
-                                    <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
-                                    <h4 class="site-description"><?php bloginfo('description'); ?></h4>
-                                </hgroup>
+                                    //lets show our image
+                                    <h1>hello world</h1>
                                 <?php } ?>
                             </div>
                         </div>
