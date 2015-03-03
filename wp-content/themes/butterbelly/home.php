@@ -138,7 +138,98 @@
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservations.jpg" /><?php } ?></span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
+                            <div class="feature-content-text">
+                                <div class="circle">
+                                    <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
+                                        <a href="<?php
+                                        if (butterbelly_get_option('butterbelly_feature_link2') != '') {
+                                            echo butterbelly_get_option('butterbelly_feature_link2');
+                                        }
+                                        ?>"><img src="<?php echo butterbelly_get_option('butterbelly_circle_img2'); ?>" alt="First Feature Image" /></a>
+                                       <?php } else { ?>
+                                        <a href="#"></a><?php } ?></div>
+                                <?php if (butterbelly_get_option('butterbelly_seconddesc') != '') { ?>
+                                    <p><?php echo stripslashes(butterbelly_get_option('butterbelly_seconddesc')); ?></p>
+                                <?php } else { ?>
+                                    <p><?php _e('', 'butterbelly'); ?></p>
+                                <?php } ?>
+                            </div></div>
+                    </div> <div class="grid_8">
+                        <div class="feature-content-inner second">
+                            <?php if (butterbelly_get_option('butterbelly_headline2') != '') { ?><h3><a href="<?php
+                                    if (butterbelly_get_option('butterbelly_feature_link2') != '') {
+                                        echo butterbelly_get_option('butterbelly_feature_link2');
+                                    }
+                                    ?>"><?php echo stripslashes(butterbelly_get_option('butterbelly_headline2')); ?></a></h3>
+                                <?php } else { ?>
+                                <h3><a href="#"><?php _e('Hotel Reservations', 'butterbelly'); ?></a></h3>
+                            <?php } ?>
+                            <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
+                                    <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
+                                <?php } else { ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
+                            <div class="feature-content-text">
+                                <div class="circle">
+                                    <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
+                                        <a href="<?php
+                                        if (butterbelly_get_option('butterbelly_feature_link2') != '') {
+                                            echo butterbelly_get_option('butterbelly_feature_link2');
+                                        }
+                                        ?>"><img src="<?php echo butterbelly_get_option('butterbelly_circle_img2'); ?>" alt="First Feature Image" /></a>
+                                       <?php } else { ?>
+                                        <a href="#"></a><?php } ?></div>
+                                <?php if (butterbelly_get_option('butterbelly_seconddesc') != '') { ?>
+                                    <p><?php echo stripslashes(butterbelly_get_option('butterbelly_seconddesc')); ?></p>
+                                <?php } else { ?>
+                                    <p><?php _e('', 'butterbelly'); ?></p>
+                                <?php } ?>
+                            </div></div>
+                    </div> <div class="grid_8">
+                        <div class="feature-content-inner second">
+                            <?php if (butterbelly_get_option('butterbelly_headline2') != '') { ?><h3><a href="<?php
+                                    if (butterbelly_get_option('butterbelly_feature_link2') != '') {
+                                        echo butterbelly_get_option('butterbelly_feature_link2');
+                                    }
+                                    ?>"><?php echo stripslashes(butterbelly_get_option('butterbelly_headline2')); ?></a></h3>
+                                <?php } else { ?>
+                                <h3><a href="#"><?php _e('Hotel Reservations', 'butterbelly'); ?></a></h3>
+                            <?php } ?>
+                            <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
+                                    <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
+                                <?php } else { ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
+                            <div class="feature-content-text">
+                                <div class="circle">
+                                    <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
+                                        <a href="<?php
+                                        if (butterbelly_get_option('butterbelly_feature_link2') != '') {
+                                            echo butterbelly_get_option('butterbelly_feature_link2');
+                                        }
+                                        ?>"><img src="<?php echo butterbelly_get_option('butterbelly_circle_img2'); ?>" alt="First Feature Image" /></a>
+                                       <?php } else { ?>
+                                        <a href="#"></a><?php } ?></div>
+                                <?php if (butterbelly_get_option('butterbelly_seconddesc') != '') { ?>
+                                    <p><?php echo stripslashes(butterbelly_get_option('butterbelly_seconddesc')); ?></p>
+                                <?php } else { ?>
+                                    <p><?php _e('', 'butterbelly'); ?></p>
+                                <?php } ?>
+                            </div></div>
+                    </div>
+                    <div class="grid_8">
+                        <div class="feature-content-inner second">
+                            <?php if (butterbelly_get_option('butterbelly_headline2') != '') { ?><h3><a href="<?php
+                                    if (butterbelly_get_option('butterbelly_feature_link2') != '') {
+                                        echo butterbelly_get_option('butterbelly_feature_link2');
+                                    }
+                                    ?>"><?php echo stripslashes(butterbelly_get_option('butterbelly_headline2')); ?></a></h3>
+                                <?php } else { ?>
+                                <h3><a href="#"><?php _e('Hotel Reservations', 'butterbelly'); ?></a></h3>
+                            <?php } ?>
+                            <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
+                                    <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
+                                <?php } else { ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
                             <div class="feature-content-text">
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
