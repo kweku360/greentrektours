@@ -106,7 +106,7 @@
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg1') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg1'); ?>" alt="First Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/img1.jpg" /><?php } ?></span>				
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/honeymoon.jpg" /><?php } ?></span>
                             <div class="feature-content-text">
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img1') != '') { ?>
@@ -116,11 +116,11 @@
                                         }
                                         ?>"><img src="<?php echo butterbelly_get_option('butterbelly_circle_img1'); ?>" alt="First Feature Image" /></a>
                                        <?php } else { ?>
-                                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/circle-img1.jpg" alt="Feature image" /></a><?php } ?></div>
+                                        <a href="#"></a><?php } ?></div>
                                 <?php if (butterbelly_get_option('butterbelly_firstdesc') != '') { ?>
                                     <p><?php echo stripslashes(butterbelly_get_option('butterbelly_firstdesc')); ?></p>
                                 <?php } else { ?>
-                                    <p><?php _e('You can use this feature section to showcase your happy customers those use your business services. It will help to build trust among the audience.', 'butterbelly'); ?></p>
+                                    <p><?php _e('', 'butterbelly'); ?></p>
                                 <?php } ?>
                             </div> </div>
                     </div>

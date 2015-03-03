@@ -457,6 +457,7 @@ html[xmlns] .slides {
     padding: 16px 22px 10px 33px;
 }
 .flex-caption a.slider-readmore {
+    display: none;
     float:right;
     margin-right:15px;
     color: #fff;

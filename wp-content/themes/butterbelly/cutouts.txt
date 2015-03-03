@@ -6,3 +6,5 @@
 <h4 class="site-description"><?php bloginfo('description'); ?></h4>
 </hgroup>
 
+//home php
+<img src="<?php echo get_template_directory_uri(); ?>/images/circle-img1.jpg" alt="Feature image" />
