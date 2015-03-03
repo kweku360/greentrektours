@@ -45,7 +45,7 @@
                                                        echo "...";
                                                    ?></a></h1>
                                     <?php } else { ?>
-                                        <h1><a href="#"><?php _e('Showcase Your Multiple Images', 'butterbelly'); ?></a></h1>
+                                        <h1><a href="#"><?php _e('Welcome to Greentrek Tours', 'butterbelly'); ?></a></h1>
                                     <?php } ?>
                                     <?php if (butterbelly_get_option('butterbelly_sliderdes1') != '') { ?>
                                         <p>					   
@@ -57,7 +57,7 @@
                                             ?>
                                         </p>
                                     <?php } else { ?>
-                                        <p><?php _e('This is a fullwidth slider where you can showcase your multiple business images. The recommended size of the images is 1600 px x 825 px.', 'butterbelly'); ?></p>
+                                        <p><?php _e('Explore A Whole New World Of Possibilities', 'butterbelly'); ?></p>
                                     <?php } ?>
                                     <?php if (butterbelly_get_option('butterbelly_slider_button1') != '') { ?>
                                         <a class="slider-readmore" href="<?php
