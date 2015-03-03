@@ -155,7 +155,8 @@
                                     <p><?php _e('', 'butterbelly'); ?></p>
                                 <?php } ?>
                             </div></div>
-                    </div> <div class="grid_8">
+                    </div>
+                    <div class="grid_8 omega">
                         <div class="feature-content-inner second">
                             <?php if (butterbelly_get_option('butterbelly_headline2') != '') { ?><h3><a href="<?php
                                     if (butterbelly_get_option('butterbelly_feature_link2') != '') {
@@ -185,7 +186,7 @@
                                     <p><?php _e('', 'butterbelly'); ?></p>
                                 <?php } ?>
                             </div></div>
-                    </div> <div class="grid_8">
+                    </div> <div class="grid_8 alpha">
                         <div class="feature-content-inner second">
                             <?php if (butterbelly_get_option('butterbelly_headline2') != '') { ?><h3><a href="<?php
                                     if (butterbelly_get_option('butterbelly_feature_link2') != '') {
