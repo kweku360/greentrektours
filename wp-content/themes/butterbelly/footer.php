@@ -38,7 +38,7 @@
         <div class="grid_24">
             <div class="bottom_footer_content">      
                 <div class="copyrightinfo"><?php $inkthemes_site_url='http://www.inkthemes.com'; ?>
-                    <p class="copyright"><a href="<?php esc_url($inkthemes_site_url); ?>"><?php _e('ButterBelly Theme','butterbelly');?> </a> <?php _e('Powered By ','butterbelly');?><a href="http://www.wordpress.org"> <?php _e('WordPress','butterbelly');?></a></p>
+                    <p class="copyright"><a href="<?php esc_url($inkthemes_site_url); ?>"><?php _e('ButterBelly Theme','butterbelly');?> </a> <?php _e('Powered By ','butterbelly');?><a href="http://www.kweku360.com"> <?php _e('Kweku Kankam','butterbelly');?></a></p>
                 </div>		 
             </div>
         </div>
