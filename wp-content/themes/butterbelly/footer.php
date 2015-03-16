@@ -9,7 +9,7 @@
                             <p> <?php echo stripslashes(butterbelly_get_option('butterbelly_topright')); ?></p>
                         <?php } else {
                             ?>
-                            <p><?php _e('For Reservation Call : 1.888.222.5847','butterbelly');?></p>
+                            <p><?php _e('For Reservation Call : +233-302-432429','butterbelly');?></p>
                         <?php } ?>
                     </div>
                 </div>
