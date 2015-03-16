@@ -286,7 +286,7 @@
                     <?php if (butterbelly_get_option('inkthemes_blog_heading') != '') { ?>
                         <h2><?php echo stripslashes(butterbelly_get_option('inkthemes_blog_heading')); ?></h2>
                     <?php } else { ?>
-                        <h2><?php _e('Show your latest posts here.', 'butterbelly'); ?></h2>
+                        <h2><?php _e('Hotels', 'butterbelly'); ?></h2>
                     <?php } ?>
                     <?php if (butterbelly_get_option('inkthemes_blog_desc') != '') { ?>
                         <p class="short_desc"><?php echo stripslashes(butterbelly_get_option('inkthemes_blog_desc')); ?></p>
@@ -324,10 +324,6 @@
                                             <h1 class="post_title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>                                            
                                         </div>
                                         <div class="post_content">                
-                                            <ul class="post_meta">                 
-                                                <li class="post_date"><span>On</span>&nbsp;<a href="#"><?php echo get_the_time('M, d, Y') ?></a></li>
-                                                <li class="posted_by"><span></span>&nbsp;<a href="#"><?php the_author_posts_link(); ?></a></li>
-                                            </ul>
                                             <?php the_post_thumbnail('full'); ?>
                                         </div>
                                     </li>
