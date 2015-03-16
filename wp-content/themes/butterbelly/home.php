@@ -328,8 +328,7 @@
                                                 <li class="post_date"><span>On</span>&nbsp;<a href="#"><?php echo get_the_time('M, d, Y') ?></a></li>
                                                 <li class="posted_by"><span></span>&nbsp;<a href="#"><?php the_author_posts_link(); ?></a></li>
                                             </ul>
-                                            <?php the_excerpt(); ?>
-                                            <a class="read_more" href="<?php the_permalink() ?>"><?php echo CONTINUE_READING_DOTS; ?></a>
+                                            <?php the_post_thumbnail('thumbnail'); ?>
                                         </div>
                                     </li>
                                     <?php
