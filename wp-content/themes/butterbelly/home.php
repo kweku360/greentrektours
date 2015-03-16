@@ -299,7 +299,13 @@
                             'post_status' => 'publish',
                             'posts_per_page' => 10,
                             'order' => 'DESC',
-                            'post_type'=>'page'
+                            'post_type'=>'page',
+                            'meta_query' => array(
+                                array(
+                                    'key' => '_thumbnail_id',
+                                    'compare' => 'EXISTS'
+                                ),
+                            )
                         );
                         $query = new WP_Query($args);
                         ?>
