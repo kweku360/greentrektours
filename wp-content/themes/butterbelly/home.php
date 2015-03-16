@@ -138,7 +138,7 @@
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/rentals.jpg" /><?php } ?></span>
                             <div class="feature-content-text">
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
@@ -169,7 +169,7 @@
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/tourism.jpg" /><?php } ?></span>
                             <div class="feature-content-text">
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
