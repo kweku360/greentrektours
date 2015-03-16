@@ -291,14 +291,15 @@
                     <?php if (butterbelly_get_option('inkthemes_blog_desc') != '') { ?>
                         <p class="short_desc"><?php echo stripslashes(butterbelly_get_option('inkthemes_blog_desc')); ?></p>
                     <?php } else { ?>
-                        <p class="short_desc"><?php _e('By default no posts will appear. You need to create one.', 'butterbelly'); ?></p>
+                        <p class="short_desc"><?php _e('', 'butterbelly'); ?></p>
                     <?php } ?>			 
                     <ul>
                         <?php
                         $args = array(
                             'post_status' => 'publish',
                             'posts_per_page' => 10,
-                            'order' => 'DESC'
+                            'order' => 'DESC',
+                            'post_type'=>'page'
                         );
                         $query = new WP_Query($args);
                         ?>
