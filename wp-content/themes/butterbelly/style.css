@@ -870,7 +870,7 @@ a.stLinks:hover {
 .feature_blog_content ul li .post_content{
     border:1px solid #e5e5e5;
     border-top:none;
-    padding:0 10px;	
+    pdding:0 0px;
     padding-bottom: 18px;
 }
 .feature_blog_content ul li .post_content p{
