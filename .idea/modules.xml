@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/greentrek.iml" filepath="$PROJECT_DIR$/.idea/greentrek.iml" />
 =======
       <module fileurl="file://$PROJECT_DIR$/.idea/blogger.iml" filepath="$PROJECT_DIR$/.idea/blogger.iml" />
 >>>>>>> 0b76636136e70177d3ce64173a290e83d11c7a3f
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/bootstart.iml" filepath="$PROJECT_DIR$/.idea/bootstart.iml" />
+>>>>>>> cd2a7a34cc906c1cb08b9bafac226c689a7d4906
     </modules>
   </component>
 </project>
