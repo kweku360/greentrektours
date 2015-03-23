@@ -5729,3 +5729,7 @@ p > video {
 		padding: 3.84615% 0;
 	}
 }
+
+.business-contact p{
+	display: none;!important;
+}
