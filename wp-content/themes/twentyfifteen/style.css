@@ -5730,6 +5730,7 @@ p > video {
 	}
 }
 
-.business-contact p{
+.business-contact .small p{
+	visibility: hidden;
 	display: none;!important;
 }
