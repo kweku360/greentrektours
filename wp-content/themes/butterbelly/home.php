@@ -57,7 +57,7 @@
                                             ?>
                                         </p>
                                     <?php } else { ?>
-                                        <p><?php _e('Explore A Whole New World Of Possibilities', 'butterbelly'); ?></p>
+                                        <p><?php _e('Whether you are travelling solo, with a partner or with a group, we warmly invite you to discover, explore and enjoy the vast array of sites and experiences that Ghana has to offer . Situated on the West Coast of Africa, Ghana takes pride in being one of the thriving democracies on the continent.', 'butterbelly'); ?></p>
                                     <?php } ?>
                                     <?php if (butterbelly_get_option('butterbelly_slider_button1') != '') { ?>
                                         <a class="slider-readmore" href="<?php
@@ -84,6 +84,37 @@
 </div>
 </div>
 <div class="clear"></div>
+<style>
+	.ceomsg{
+		margin:-50px auto;
+			width:70%;
+		height:100px;
+				
+	}
+	.ceomsg img{
+		float:left;
+	}
+	.msgtxt{
+		margin-top:20px;
+		width:70%;
+		height:130px;
+		border-top:1px solid lightgray;
+		border-bottom:1px solid lightgray;
+		float:left;
+		font-family:arial sans-serif;
+		padding:8px;font-size:18px;
+			
+	}
+
+</style>
+<div class="ceomsg">
+	 <img  src="<?php echo get_template_directory_uri(); ?>/images/msg.jpg" />
+	 <div class="msgtxt"> It gives me great pleasure to welcome you to the green trek tours website.
+		 These are exciting yet challenging economical periods in our nation and I hope our portal creates an opportunity for our valued visitors around the world to learn more about our leading-edge operations, tourist attractions, our various services, sustainability initiatives, and core values. This website is part of the external manifestation of our commitment to provide excellent 
+		 services to all our stakeholders as well as to the wider public interested in our activities. </div>
+	 
+</div>
+<br><br><br>
 <div class="home_container">
     <div class="container_24">
         <div class="grid_24">
@@ -194,12 +225,12 @@
                                     }
                                     ?>"><?php echo stripslashes(butterbelly_get_option('butterbelly_headline2')); ?></a></h3>
                                 <?php } else { ?>
-                                <h3><a href="#"><?php _e('Hotel Reservations', 'butterbelly'); ?></a></h3>
+                                <h3><a href="#"><?php _e('Events Management', 'butterbelly'); ?></a></h3>
                             <?php } ?>
                             <span id="image"><?php if (butterbelly_get_option('butterbelly_fimg2') != '') { ?>
                                     <img src="<?php echo butterbelly_get_option('butterbelly_fimg2'); ?>" alt="Second Feature Image" />
                                 <?php } else { ?>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/reservation.jpg" /><?php } ?></span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/evt.png" /><?php } ?></span>
                             <div class="feature-content-text">
                                 <div class="circle">
                                     <?php if (butterbelly_get_option('butterbelly_circle_img2') != '') { ?>
